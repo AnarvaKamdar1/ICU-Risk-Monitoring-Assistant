@@ -1,0 +1,23 @@
+DATASETS:
+
+1. RSNA Pneumonia Detection Challenge Dataset-
+	Link: https://www.kaggle.com/competitions/rsna-pneumonia-detection-challenge
+	Task: Used for image model (faster RCNN/YOLO)
+
+2. WiDS Datathon 2020-
+	Link: https://www.kaggle.com/competitions/widsdatathon2020
+	Task: Used for demographic model (xgboost)
+
+3. PhysioNet Predicting Mortality of ICU Patients-
+	Link: https://physionet.org/content/challenge-2012/1.0.0
+	Task: Used for time-series model (transformer)
+
+4. MT Samples-
+	Link: https://www.kaggle.com/datasets/tboyle10/medicaltranscriptions
+	Task: Used for grounding the summary to clinical notes
+
+MODELS:
+	LLM: Qwen/Qwen3-4B-Instruct-2507
+	Model 1 : Demographic Info : Background features : XGBoost
+	Model 2 : Imaging Info     : Chest X-ray         : FasterRCNN
+	Model 3 : Time Series Info : Labs and Vitals     : Transformer
