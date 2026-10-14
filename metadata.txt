@@ -21,3 +21,7 @@ MODELS:
 	Model 1 : Demographic Info : Background features : XGBoost
 	Model 2 : Imaging Info     : Chest X-ray         : FasterRCNN
 	Model 3 : Time Series Info : Labs and Vitals     : Transformer
+
+ARTIFACTS:
+
+	Artifacts can be found on: https://huggingface.co/datasets/Anarva/ICU-Risk-Monitoring-Assistant-Artifacts 
